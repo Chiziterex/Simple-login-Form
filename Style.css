@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline:0;
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:whitesmoke;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content :space-between;
+    padding: 1rem 2rem;
+}
+
+header h2{
+    font-size:2rem;
+    font-weight:400;
+}
+
+header .btn{
+    display:inline-block;
+    padding:0.5rem 1rem;
+    border:2px solid #40a1ff;
+    background : transparent ;
+    color:#40a1ff;
+    border-radius:5px;
+    font-size:1rem;
+}
+
+.form{
+    display:flex;
+    align-items:center;
+    justify-content :center;
+    min-height:100vh;
+    
+}
+
+.form .content{
+    display:flex;
+    flex-direction:column;
+    padding: 3rem 2rem;
+    position :relative;
+    justify-content:center;
+    align-items:center;
+    gap:1.5rem;
+    width:100%;
+}
+
+.form .content h3{
+    font-size:2.5rem;
+    margin-bottom:1rem;
+    font-weight:300;
+}
+
+.form .content input{
+    width:100%;
+    border:0.005rem solid #999;
+    padding:1rem 0.5rem;
+    border-radius:4px;
+    padding-left:15px;
+    outline:none;
+    background : transparent ;
+}
+
+.form .content input ::placeholder{
+    opacity:0.1;
+    font-size:1rem;
+}
+
+.form .content .btn{
+    display:inline-block;
+    padding:1rem 0.5rem;
+    border:none;
+    background : #40a1ff ;
+    color:#40a1ff;
+    border-radius:5px;
+    font-size:1rem;
+    width:100%;
+    color:#fff;
+    text-align:center;
+}
+
+.form .content a{
+    color:#40a1ff;
+}
