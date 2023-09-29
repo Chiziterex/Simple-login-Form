@@ -51,7 +51,7 @@ header .btn{
     justify-content:center;
     align-items:center;
     gap:1.5rem;
-    width:400px;
+    width:clamp(20rem,30rem,40rem);
 }
 
 .form .content h3{
